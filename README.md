@@ -9,8 +9,6 @@ Proyecto académico de análisis y diseño inicial de arquitectura de software, 
 ## Sistema de referencia
 Raíz Andina — Sistema Integral de Pedidos y Gestión, 3 sedes (Ayacucho). Módulos: Menú Digital, Pedidos, Pagos, Reservas de Mesas, Fidelización, Inventario, Administración Multisede, Notificaciones en tiempo real, Panel de Cocina (KDS), y el componente transversal de Autenticación y Seguridad.
 
-> **Nota:** este repositorio es un ejercicio académico independiente (análisis y arquitectura inicial), separado del repositorio de código real del proyecto (`raiz-andina`). No reemplaza ni modifica las especificaciones ni el código ya construidos allí.
-
 ## Curso
 Arquitectura de Software (IS-488) — Ing. Lizbeth Jaico Quispe — Semestre 2026-II
 
