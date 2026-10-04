@@ -55,7 +55,7 @@ flowchart TD
     %% SISTEMAS EXTERNOS
     %% =========================
     subgraph EXTERNOS["SISTEMAS EXTERNOS"]
-        Culqi["Culqi (pasarela de pago)"]
+        MercadoPago["Mercado Pago (pasarela de pago)"]
         Cloudinary["Cloudinary (imágenes)"]
         Correo["Servicio de correo"]
         Sentry["Sentry (monitoreo de errores)"]
@@ -89,7 +89,7 @@ flowchart TD
     Fidelizacion ~~~ Inventario
     Inventario ~~~ Admin
 
-    Culqi ~~~ Cloudinary
+    MercadoPago ~~~ Cloudinary
     Cloudinary ~~~ Correo
     Correo ~~~ Sentry
 
@@ -124,7 +124,7 @@ flowchart TD
 
     style BD fill:#222,stroke:#fff,color:#fff
 
-    style Culqi fill:#222,stroke:#fff,color:#fff
+    style MercadoPago fill:#222,stroke:#fff,color:#fff
     style Cloudinary fill:#222,stroke:#fff,color:#fff
     style Correo fill:#222,stroke:#fff,color:#fff
     style Sentry fill:#222,stroke:#fff,color:#fff
@@ -138,6 +138,6 @@ La arquitectura inicial de Raíz Andina se organiza como un **monolito modular e
 - **Lógica de negocio:** un solo backend Flask dividido internamente en módulos independientes con fronteras claras: Autenticación y Seguridad (transversal), Menú Digital, Pedidos, Pagos, Panel de Cocina (KDS), Reservas de Mesas, Fidelización, Inventario y Administración Multisede.
 - **Capa transversal (Redis):** absorbe los picos de tráfico mediante caché de la carta, cola de pedidos por sede, canal de eventos en tiempo real (Socket.IO) y límite de peticiones (rate limiting).
 - **Datos:** toda la información persiste en una sola base de datos MySQL, que es la fuente de verdad del sistema.
-- **Sistemas externos:** el módulo de Pagos se integra con Culqi (pasarela de pago), el módulo de Menú se integra con Cloudinary (imágenes), y el sistema completo se apoya en un servicio de correo (recuperación de contraseña, comprobantes) y en Sentry (monitoreo de errores en producción).
+- **Sistemas externos:** el módulo de Pagos se integra con Mercado Pago (pasarela de pago), el módulo de Menú se integra con Cloudinary (imágenes), y el sistema completo se apoya en un servicio de correo (recuperación de contraseña, comprobantes) y en Sentry (monitoreo de errores en producción).
 
 Se eligió un monolito modular (en vez de microservicios) porque el proyecto es individual, con un plazo de 4 meses, y porque operaciones como "pedido + pago + descuento de stock" se resuelven mejor como una sola transacción de base de datos. Cada módulo ya tiene una frontera clara, de modo que en el futuro podría extraerse como servicio independiente si el crecimiento del negocio lo justificara.
