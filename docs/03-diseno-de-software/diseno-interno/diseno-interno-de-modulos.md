@@ -45,7 +45,7 @@ La petición entra por las rutas, las reglas están en los servicios y los datos
 
 ## Flujo: del pedido a la cocina
 
-![Flujo pedido, pago y cocina](diseno-interno-de-modulos-flujo.png)
+![Flujo pedido, pago y cocina](../../../img/diseno-interno-de-modulos-flujo.png)
 
 | Paso | Mensajes del diagrama | Qué pasa | Dónde ocurre | Requisito |
 |---|---|---|---|---|
@@ -60,6 +60,6 @@ La petición entra por las rutas, las reglas están en los servicios y los datos
 
 ## Estados del pedido
 
-![Estados del pedido](diseno-interno-de-modulos-estados.png)
+![Estados del pedido](../../../img/diseno-interno-de-modulos-estados.png)
 
 Los estados solo avanzan hacia adelante y cada cambio deja una fila en el historial de estados del pedido. Si el pago vence, la tarea de cancelación pasa el pedido de `RECIBIDO` a `CANCELADO`.

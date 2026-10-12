@@ -14,7 +14,7 @@ Mostrar cómo se organizan las clases de los componentes Pedidos, Pagos y Panel 
 
 ## 2. Diagrama
 
-![C4 Nivel 4: Diagrama de clases del flujo pedido, pago y cocina](Nivel4-DiagramadeCodigo.png)
+![C4 Nivel 4: Diagrama de clases del flujo pedido, pago y cocina](../../img/Nivel4-DiagramadeCodigo.png)
 
 ## 3. Clases por capa
 

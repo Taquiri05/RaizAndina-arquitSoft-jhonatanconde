@@ -19,7 +19,7 @@
 
 ## Diagrama de capas
 
-![Capas de Clean Architecture en Raíz Andina](enfoque-arquitectonico.png)
+![Capas de Clean Architecture en Raíz Andina](../../img/enfoque-arquitectonico.png)
 
 **Regla de dependencia:** las dependencias de código apuntan siempre hacia el centro. El Dominio no conoce Flask, SQLAlchemy, Mercado Pago ni Cloudinary; los casos de uso conocen el dominio y piden lo externo a través de un adaptador; los detalles tecnológicos quedan en la capa exterior.
 

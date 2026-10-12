@@ -2,7 +2,7 @@
 
 ## Diagrama de arquitectura
 
-![Arquitectura inicial de Raíz Andina](arquitectura-inicial.png)
+![Arquitectura inicial de Raíz Andina](../../img/arquitectura-inicial.png)
 
 ## Descripción
 

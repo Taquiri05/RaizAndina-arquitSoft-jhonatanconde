@@ -14,7 +14,7 @@ Abrir el contenedor API Raíz Andina y mostrar sus módulos internos.
 
 ## 2. Diagrama
 
-![C4 Nivel 3: Diagrama de componentes de la API Raíz Andina](Nivel3-Diagrama-de-Componentes.png)
+![C4 Nivel 3: Diagrama de componentes de la API Raíz Andina](../../img/Nivel3-Diagrama-de-Componentes.png)
 
 ## 3. Componentes
 

@@ -2,7 +2,7 @@
 
 ## Diagrama de componentes
 
-![Diagrama de componentes de Raíz Andina](componentes-arquitectonicos.png)
+![Diagrama de componentes de Raíz Andina](../../img/componentes-arquitectonicos.png)
 
 ## Descripción
 

@@ -13,7 +13,7 @@
 
 ## Vista en capas
 
-![Vista en capas del monolito modular](estilo-arquitectonico.png)
+![Vista en capas del monolito modular](../../img/estilo-arquitectonico.png)
 
 **Regla del estilo:** cada capa solo se comunica con la inmediatamente inferior. Las rutas no hablan con la base de datos: llaman a un servicio, y es el servicio quien usa los modelos o los adaptadores.
 

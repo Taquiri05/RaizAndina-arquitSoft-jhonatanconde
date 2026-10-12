@@ -14,7 +14,7 @@ Abrir la caja "Sistema Integral de Pedidos y Gestión" del nivel 1 y mostrar las
 
 ## 2. Diagrama
 
-![C4 Nivel 2: Diagrama de contenedores de Raíz Andina](Nivel2-DiagramadeContenedores.png)
+![C4 Nivel 2: Diagrama de contenedores de Raíz Andina](../../img/Nivel2-DiagramadeContenedores.png)
 
 ## 3. Contenedores
 

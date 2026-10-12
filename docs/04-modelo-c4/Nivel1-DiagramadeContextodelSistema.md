@@ -15,7 +15,7 @@ Mostrar el Sistema Integral de Pedidos y Gestión de Raíz Andina como una sola 
 
 ## 2. Diagrama
 
-![C4 Nivel 1: Diagrama de contexto de Raíz Andina](Nivel1-DiagramadeContextodelSistema.png)
+![C4 Nivel 1: Diagrama de contexto de Raíz Andina](../../img/Nivel1-DiagramadeContextodelSistema.png)
 
 ## 3. Personas
 

@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="v3kN02C76k4r9w8ONCOI">
+    <mxGraphModel dx="1815" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bpbes6rHfKShBK1wtoIZ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="780" width="1230" x="250" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cliente" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPosition=center;align=center;spacingTop=6;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=Helvetica;fontSize=16;strokeWidth=3;" value="Cliente&lt;br&gt;[Persona]" vertex="1">
+          <mxGeometry height="80" width="40" x="450" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="cocina" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPosition=center;align=center;spacingTop=6;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=Helvetica;fontSize=16;strokeWidth=3;" value="Personal de Cocina&lt;br&gt;[Persona]" vertex="1">
+          <mxGeometry height="80" width="40" x="710" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="adminSede" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPosition=center;align=center;spacingTop=6;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=Helvetica;fontSize=16;strokeWidth=3;" value="Administrador de Sede&lt;br&gt;[Persona]" vertex="1">
+          <mxGeometry height="80" width="40" x="970" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="superAdmin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPosition=center;align=center;spacingTop=6;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=Helvetica;fontSize=16;strokeWidth=3;" value="Súper Administrador&lt;br&gt;[Persona]" vertex="1">
+          <mxGeometry height="80" width="40" x="1230" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="raizAndina" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#6C8EBF;fontFamily=Helvetica;fontSize=22;align=center;verticalAlign=middle;spacing=16;strokeWidth=3;" value="&lt;b&gt;Sistema Integral de Pedidos y Gestión - Raíz Andina&lt;/b&gt;&lt;br&gt;[Sistema de software]&lt;br&gt;Permite consultar la carta, pedir y pagar en línea, y gestionar pedidos, cocina y las 3 sedes del negocio." vertex="1">
+          <mxGeometry height="170" width="930" x="360" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="mercadoPago" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEEEE;strokeColor=#666666;fontFamily=Helvetica;fontSize=19;align=center;verticalAlign=middle;spacing=8;strokeWidth=3;" value="&lt;b&gt;Mercado Pago&lt;/b&gt;&lt;br&gt;[Sistema externo]&lt;br&gt;Pasarela de pago en línea." vertex="1">
+          <mxGeometry height="110" width="240" x="350" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="cloudinary" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEEEE;strokeColor=#666666;fontFamily=Helvetica;fontSize=19;align=center;verticalAlign=middle;spacing=8;strokeWidth=3;" value="&lt;b&gt;Cloudinary&lt;/b&gt;&lt;br&gt;[Sistema externo]&lt;br&gt;Almacena las imágenes de los productos." vertex="1">
+          <mxGeometry height="110" width="240" x="610" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="correo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEEEE;strokeColor=#666666;fontFamily=Helvetica;fontSize=18;align=center;verticalAlign=middle;spacing=8;strokeWidth=3;" value="&lt;b&gt;Servicio de correo&lt;/b&gt;&lt;br&gt;[Sistema externo]&lt;br&gt;Envía correos de recuperación de contraseña y comprobantes." vertex="1">
+          <mxGeometry height="110" width="240" x="870" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="sentry" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEEEE;strokeColor=#666666;fontFamily=Helvetica;fontSize=19;align=center;verticalAlign=middle;spacing=8;strokeWidth=3;" value="&lt;b&gt;Sentry&lt;/b&gt;&lt;br&gt;[Sistema externo]&lt;br&gt;Monitoreo de errores en producción." vertex="1">
+          <mxGeometry height="110" width="240" x="1130" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="clienteUsaSistema" edge="1" parent="1" source="cliente" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;labelBackgroundColor=#ffffff;fontFamily=Helvetica;fontSize=16;dashed=0;exitX=0.5;exitY=1;exitDx=0;exitDy=40;exitPerimeter=0;entryX=0.118;entryY=0;entryDx=0.26;entryDy=0;entryPerimeter=0;strokeWidth=3;" target="raizAndina" value="Consulta la carta, pide y paga">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cocinaUsaSistema" edge="1" parent="1" source="cocina" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;labelBackgroundColor=#ffffff;fontFamily=Helvetica;fontSize=16;dashed=0;exitX=0.5;exitY=1;exitDx=0;exitDy=40;exitPerimeter=0;entryX=0.398;entryY=0;entryDx=-0.14;entryDy=0;entryPerimeter=0;strokeWidth=3;" target="raizAndina" value="Recibe pedidos y avanza su estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adminSedeUsaSistema" edge="1" parent="1" source="adminSede" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;labelBackgroundColor=#ffffff;fontFamily=Helvetica;fontSize=16;dashed=0;exitX=0.5;exitY=1;exitDx=0;exitDy=40;exitPerimeter=0;entryX=0.677;entryY=0;entryDx=0.39;entryDy=0;entryPerimeter=0;strokeWidth=3;" target="raizAndina" value="Gestiona su sede">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="superAdminUsaSistema" edge="1" parent="1" source="superAdmin" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;labelBackgroundColor=#ffffff;fontFamily=Helvetica;fontSize=16;dashed=0;exitX=0.5;exitY=1;exitDx=0;exitDy=40;exitPerimeter=0;entryX=0.957;entryY=0;entryDx=-0.01;entryDy=0;entryPerimeter=0;strokeWidth=3;" target="raizAndina" value="Gestiona el negocio completo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sistemaCobraPagos" edge="1" parent="1" source="raizAndina" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;labelBackgroundColor=#ffffff;fontFamily=Helvetica;fontSize=16;dashed=0;exitX=0.118;exitY=1;exitDx=0.26;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" target="mercadoPago" value="Cobra pagos [HTTPS/REST]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sistemaGestionaImagenes" edge="1" parent="1" source="raizAndina" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;labelBackgroundColor=#ffffff;fontFamily=Helvetica;fontSize=16;dashed=0;exitX=0.398;exitY=1;exitDx=-0.14;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" target="cloudinary" value="Sube y consulta imágenes [HTTPS]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sistemaEnviaCorreos" edge="1" parent="1" source="raizAndina" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;labelBackgroundColor=#ffffff;fontFamily=Helvetica;fontSize=16;dashed=0;exitX=0.677;exitY=1;exitDx=0.39;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" target="correo" value="Envía correos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sistemaReportaErrores" edge="1" parent="1" source="raizAndina" style="edgeStyle=none;html=1;endArrow=block;endFill=1;strokeColor=#333333;labelBackgroundColor=#ffffff;fontFamily=Helvetica;fontSize=16;dashed=0;exitX=0.957;exitY=1;exitDx=-0.01;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" target="sentry" value="Reporta errores">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
