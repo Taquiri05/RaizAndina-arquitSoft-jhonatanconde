@@ -50,12 +50,12 @@
 
 | ID | Requisito funcional | Prioridad |
 |---|---|---|
-| RF-PAG-01 | El cliente paga en línea con Culqi: Yape, Plin, tarjeta o PagoEfectivo. | MVP |
-| RF-PAG-02 | El sistema confirma el pago mediante el webhook de Culqi y actualiza el estado del pago. | MVP |
+| RF-PAG-01 | El cliente paga en línea con Mercado Pago: tarjeta, Yape o PagoEfectivo. | MVP |
+| RF-PAG-02 | El sistema confirma el pago mediante el webhook de Mercado Pago y actualiza el estado del pago. | MVP |
 | RF-PAG-03 | Un pedido solo pasa a cocina cuando su pago está Confirmado. | MVP |
-| RF-PAG-04 | Si el webhook no llega a tiempo, el sistema consulta el estado del cargo directamente a Culqi. | Incremento |
+| RF-PAG-04 | Si el webhook no llega a tiempo, el sistema consulta el estado del pago directamente a Mercado Pago. | Incremento |
 | RF-PAG-05 | El cliente recibe un comprobante digital del pago. | Incremento |
-| RF-PAG-06 | El administrador emite reembolsos desde su panel, vía Culqi. | Incremento |
+| RF-PAG-06 | El administrador emite reembolsos desde su panel, vía Mercado Pago. | Incremento |
 
 ## Reservas de Mesas
 

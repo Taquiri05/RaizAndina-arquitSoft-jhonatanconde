@@ -15,7 +15,7 @@ Formato: Como [actor], quiero [acción], para [beneficio].
 | HU09 | Como cliente, quiero armar mi carrito y elegir delivery o recojo, para preparar y confirmar mi pedido. |
 | HU10 | Como cliente, quiero ver el estado de mi pedido en tiempo real, para saber cuándo estará listo. |
 | HU11 | Como administrador de sede, quiero ver y filtrar los pedidos de mi sede, para controlar la operación diaria. |
-| HU12 | Como cliente, quiero pagar con Yape, Plin, tarjeta o PagoEfectivo, para completar mi compra sin usar efectivo. |
+| HU12 | Como cliente, quiero pagar con tarjeta, Yape o PagoEfectivo, para completar mi compra sin usar efectivo. |
 | HU13 | Como administrador de sede, quiero que solo lleguen a cocina los pedidos con pago confirmado, para no preparar comida que no se cobró. |
 | HU14 | Como personal de cocina, quiero ver los pedidos pagados en columnas por estado, para organizar la preparación sin papel. |
 | HU15 | Como personal de cocina, quiero avanzar el estado de un pedido con un solo toque, para informar el avance de la preparación. |
